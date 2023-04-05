@@ -1,0 +1,37 @@
+@keyframes move {
+  0%{
+    r: 15px;
+  }
+  50%{
+    r: 3px;
+  }
+  100%{
+    r: 15px;
+  }
+}
+
+#circle-first {
+  r: 15px;
+  
+  animation-name: move;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+#circle-second {
+  r: 15px;
+  
+  animation-name: move;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay: 0.3s;
+}
+
+#circle-third {
+  r: 15px;
+  
+  animation-name: move;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay: 0.6s;
+}
